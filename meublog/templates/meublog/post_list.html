@@ -1,6 +1,7 @@
 {% extends 'meublog/base.html' %}
 
 {% block content %}    
+    <h1 id="title">Últimas publicações</h1>
     {% for post in posts %}
         <div class="post">
             <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
@@ -10,5 +11,16 @@
             </div>
         </div>
     {% endfor %}
+    <div id="sobre">
+        <h3>Quem sou eu</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type 
+            specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. It was popularised in 
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including
+             versions of Lorem Ipsum.rmações</p>
+    </div>
 {% endblock %}                    
           

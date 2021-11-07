@@ -56,15 +56,23 @@ h1, h2, h3, h4 {
     margin-top: 10px;
 }
 
+.img_post {
+    width: 50%;
+}
+
 #sobre{
     position: absolute;
     top: 30px;
     right: 10px;
     width: 40%;
-    height: 400px;
+    height: 230px;
     border-radius: 9px;
     background-color: #e4e2e2;
     padding: 30px;
+}
+
+#bio {
+    font-size: 20px;
 }
 
 #title{

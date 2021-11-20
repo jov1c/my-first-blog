@@ -80,3 +80,26 @@ h1, h2, h3, h4 {
     margin-bottom: 30px;
     color: #c20061;
 }
+
+#contato{
+    position: absolute;
+    top: 290px;
+    right: 10px;
+    width: 40%;
+    height: 180px;
+    border-radius: 9px;
+    background-color: #e4e2e2;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.content-icon{
+    display: flex;
+    margin-top: 5px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
